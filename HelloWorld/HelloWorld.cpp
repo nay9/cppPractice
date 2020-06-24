@@ -2,9 +2,11 @@
 
 int main()
 {
-    int x{};
-    std::cout << "Enter a number:";
+    std::cout << "Enter an integer: ";
+
+    int x{ 0 };
     std::cin >> x;
-    std::cout << "you entered: " << x << '\n';
+
+    std::cout << "double " << x << " is " << x * 2 << '\n';
     return 0;
 }
