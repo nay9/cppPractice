@@ -7,11 +7,14 @@ int getValueFromUser() {
     return input;
 }
 
+void printValue(int x) {
+    std::cout << x << " doubled is: " << x * 2 << '\n';
+}
+
 int main()
 {
-    int num{ getValueFromUser() };
+    int x{ getValueFromUser() };
 
-    std::cout << num << " doubled is: " << num * 2 << '\n';
-
+    printValue(x);
     return 0;
 }
