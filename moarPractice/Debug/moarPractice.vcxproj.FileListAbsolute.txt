@@ -1,0 +1,2 @@
+C:\Users\User\source\repos\moarPractice\Debug\moarPractice.exe
+C:\Users\User\source\repos\moarPractice\Debug\moarPractice.pdb
