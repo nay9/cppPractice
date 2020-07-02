@@ -1,12 +1,15 @@
 #include <iostream>
+int add(int x, int y);
+
+int getInteger();
 
 int main()
 {
-    std::cout << "Enter an integer: ";
+    std::cout << "the sum of 3 and 4 is:  " << add(3, 4) << '\n';
+    
+    int x{ getInteger() };
+    int y{ getInteger() };
 
-    int x{ 0 };
-    std::cin >> x;
-
-    std::cout << "double " << x << " is " << x * 2 << '\n';
+    std::cout << x << " + " << y << " is " << x + y << '\n';
     return 0;
 }
